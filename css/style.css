@@ -1,0 +1,71 @@
+.navbar-brand{
+    background-color: gray;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -5px;
+    margin-right: -20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+} 
+   
+.navbar-brand .h2{
+    padding: 10px;
+    width: 90%;
+    
+}.menu{
+    justify-content: center;
+    text-align: center;
+}.chicken{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+}.Beef{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+}.Sushi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+}.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: none;
+   
+}.btn {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    display: none !important;
+}.btn{
+    background-color: gray;
+    border: 1px solid white;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+}
+@media (max-width:500px){
+    .btn{
+        display: block !important;
+    }
+}
+@media (max-width:1366px) and (min-width:501px){
+    .list{
+        display: none !important;
+    }
+}
